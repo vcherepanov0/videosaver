@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{background-color: white}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: #DCCBC4;
+}
+.header-title{
+  font-size: 2rem;
+  color: #BA63C6;
+  margin-bottom: 2rem;
+}
+.header-desc{
+  font-weight: 700;
+  color: #2F2F2F;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+}
+.block-name_end{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.block-name_end span{
+  font-size: 3.5rem;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 700;
+  color: rgba(121, 39, 133, 0.1);
+  user-focus: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+.block-name_start{
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.block-name_start span{
+  font-size: 3.5rem;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 700;
+  color: rgba(121, 39, 133, 0.1);
+  user-focus: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+.team-block{
+
+}
+.team-block_title{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E7E2E1;
+  margin-bottom: 2rem;
+}
+.team-members-block{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.member-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.member-image{
+  width: 100%
+
+}
+.member-info{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.member-name{
+  color: #DCCBC4;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 20px;
+}
+.member-job{
+  color: #DCCBC4;
+  font-weight: 700;
+  font-size: 16px;
+}
+.create-desc{
+  font-weight: 500;
+  color: #2F2F2F;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+.stages-wrapper{
+
+  background-color: #DCCBC4;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.stages-list_block{
+  background-color: #792785;
+  width: fit-content;
+  font-size: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+  white-space: nowrap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  color: #DCCBC4;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li::before {
+  content: "•";
+  float: left;
+  padding: 0 0.5em 0 0;
+}
+.app-info_title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.app-info_title img{
+  margin-right: 1rem;
+  width: 4rem;
+}
+.app-info_title span{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #73561D;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.app-info_block desc{
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.gp-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gp-logo img{
+  height: 48px;
+  border-radius: 8px;
+}
+.privacy-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 48px;
+  padding: 0 2rem;
+  background-color: #792785;
+  color: #E7E2E1;
+  white-space: nowrap;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.app-action_block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .header-title{
+    font-size: 3rem;
+  }
+  .header-desc{
+    font-size: 2rem;
+  }
+  .create-desc{
+    font-size: 2rem;
+  }
+  .block-name_end span {
+    font-size: 8rem;
+  }
+  .block-name_start span{
+    font-size: 8rem;
+
+  }
+  .team-block_title{
+    font-size: 2rem;
+  }
+  .stages-list_block{
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 3rem;
+  }
+  .app-info_block desc{
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
